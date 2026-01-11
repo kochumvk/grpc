@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine:3.9
+FROM alpine:3.23.2
 
 RUN apk add --update build-base linux-headers python python-dev py-pip
 
